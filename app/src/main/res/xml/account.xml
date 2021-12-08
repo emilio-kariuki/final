@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        android:title="@string/title_security"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="@string/key_log_out"
+            android:title="@string/title_log_out"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="@string/key_delete_account"
+            android:summary="@string/summary_delete_account"
+            android:title="@string/title_delete_account"
+            app:iconSpaceReserved="true"
+            app:icon="@android:drawable/ic_menu_delete" />
+
+        <PreferenceCategory
+            android:title="@string/title_about"
+            app:iconSpaceReserved="false">
+
+            //App Version
+            <Preference
+                android:key="@string/key_version"
+                android:summary="@string/summary_version"
+                android:title="@string/title_version"
+                app:iconSpaceReserved="false" />
+
+            //Privacy Policy
+            <Preference
+                android:key="@string/key_privacy_policy"
+                android:title="@string/title_privacy_policy"
+                app:iconSpaceReserved="false" >
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="https//www.google.com"/>
+                //the url can be replaced with actual app's privacy url
+            </Preference>
+
+        </PreferenceCategory>
+
+    </PreferenceCategory>
+</PreferenceScreen>
