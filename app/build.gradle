@@ -62,12 +62,9 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
     implementation 'androidx.preference:preference-ktx:1.1.1'
     implementation 'com.google.android.gms:play-services-location:18.0.0'
-    implementation 'org.osmdroid:osmdroid-android:(6.1.6)'
-    implementation 'org.osmdroid:osmdroid-wms:(6.1.6)'
-    implementation 'org.osmdroid:osmdroid-mapsforge:(6.1.6)'
-    implementation 'org.osmdroid:osmdroid-geopackage:(6.1.6)'
+
 
     implementation 'com.android.support:support-annotations:25.0.0'
-   
+
 }
 apply plugin: 'com.google.gms.google-services'
