@@ -18,6 +18,8 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         LottieAnimationView background = findViewById(R.id.background2);
+
+        
         TextView logo = findViewById(R.id.logo);
         ImageView image= findViewById(R.id.imageView);
 
